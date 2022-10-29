@@ -66,3 +66,6 @@ console.log(typeof alfie.dodgy);
 alfie.nope = showMe;
 alfie.nope();
 
+const noShowInHere = { name: "Oddity" };
+// NOPE, the prefix has to be something that contains a field with the target name
+// noShowInHere.showMe();
